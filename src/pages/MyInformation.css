@@ -1,0 +1,77 @@
+.my-information-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.section-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.name-fields {
+  display: grid;
+  grid-template-columns: 1fr 80px 1fr;
+  gap: 12px;
+}
+
+.name-fields .form-field {
+  margin-bottom: 0;
+}
+
+.form-field select {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  transition: border-color 0.2s;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: auto;
+  min-height: 44px;
+}
+
+.form-field select:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+.form-field input[readonly] {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.next-button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 20px;
+}
+
+.next-button:hover {
+  background-color: #0052a3;
+}
+
+.next-button:active {
+  background-color: #003d7a;
+}
+
