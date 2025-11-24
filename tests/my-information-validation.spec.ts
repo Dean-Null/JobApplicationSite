@@ -114,3 +114,5 @@ test('should verify required fields prevent navigation when clicking Next on My 
   await expect(page).toHaveURL(/.*\/my-information/);
   await expect(page.locator('h2.form-title')).toHaveText('My Information');
 });
+
+// This is a test project created by Dean Morrison for reviewing React and Playwright. Check out other projects at https://github.com/Dean-Null

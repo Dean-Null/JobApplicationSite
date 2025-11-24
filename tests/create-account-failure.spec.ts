@@ -22,3 +22,5 @@ test('Recorded a failure to login', async ({ page }) => {
   await expect(page).toHaveURL('/');
   await expect(page.getByRole('button', { name: 'Create Account' })).toBeVisible();
 });
+
+// This is a test project created by Dean Morrison for reviewing React and Playwright. Check out other projects at https://github.com/Dean-Null

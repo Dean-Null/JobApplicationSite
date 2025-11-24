@@ -22,3 +22,5 @@ function App() {
 
 export default App
 
+// This is a test project created by Dean Morrison for reviewing React and Playwright. Check out other projects at https://github.com/Dean-Null
+
